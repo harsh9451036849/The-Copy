@@ -1,4 +1,6 @@
 '''THIS CODE IS FOR COPING THE FILE FROM GIVEN DIRECTORY TO GIVEN LOCATION '''
+#THIS CODE WILL WORK FOR TEXT FILE ONLY...
+#NO SUPPORT FOR .JPG OR .MP4 EXTENSIONS
 
 f = open(input("provide the name and path of file from where you want to copy file : "))
 g = open(input("provide the name and path of file  where you want to paste file : "), "w") 
